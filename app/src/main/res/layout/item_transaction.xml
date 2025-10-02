@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="64dp"
+    android:orientation="vertical"
+    android:padding="12dp"
+    android:background="@drawable/bg_list_item_ripple">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nike"
+                android:textStyle="bold"
+                android:textColor="@color/textPrimary"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:id="@+id/tvDateSource"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10 Jun 2021  •  Tokopedia"
+                android:textColor="@color/textSecondary"
+                android:textSize="11sp"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvAmount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="- Rp. 150.000"
+            android:textStyle="bold"
+            android:textSize="13sp"
+            android:textColor="@color/expenseRed"/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/dividerLight" />
+</LinearLayout>

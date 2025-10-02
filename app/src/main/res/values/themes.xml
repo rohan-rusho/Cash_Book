@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- App Theme -->
+    <style name="Theme.CashBook" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimaryBlue</item>
+        <item name="colorOnPrimary">@color/colorOnPrimary</item>
+        <item name="android:statusBarColor">@color/colorPrimaryBlueDark</item>
+        <!-- Optional: light status bar icons? -->
+        <!-- <item name="android:windowLightStatusBar">false</item> -->
+    </style>
+
+    <!-- Reusable outlined EditText style -->
+    <style name="Widget.App.EditField">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/field_height</item>
+        <item name="android:background">@drawable/bg_outlined_edittext</item>
+        <item name="android:paddingStart">12dp</item>
+        <item name="android:paddingEnd">12dp</item>
+        <item name="android:textSize">@dimen/field_text_size</item>
+        <item name="android:textColor">@color/textPrimary</item>
+        <item name="android:textColorHint">@color/textSecondary</item>
+        <item name="android:layout_marginBottom">@dimen/content_spacing</item>
+    </style>
+
+    <!-- Choice chip style -->
+    <style name="Widget.App.TimeRangeChip" parent="Widget.MaterialComponents.Chip.Choice">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:letterSpacing">0.05</item>
+        <item name="chipBackgroundColor">@drawable/bg_time_chip_selector</item>
+        <item name="android:textColor">@color/chip_text_color_selector</item>
+        <item name="chipStrokeWidth">0dp</item>
+        <item name="rippleColor">@color/rippleLight</item>
+    </style>
+
+    <!-- IF YOU NEED A STYLE NAMED "Widget" AND SOMETHING IS REFERENCING IT -->
+    <style name="Widget">
+        <!-- Define attributes for this style here. -->
+        <!-- For example, if it's a base for other things or a generic container style: -->
+        <!-- <item name="android:padding">8dp</item> -->
+        <!-- Add other items as needed -->
+    </style>
+
+    <!-- You might also want to re-add your other Widget.App.* styles if they were removed accidentally
+         and are still used elsewhere in your project -->
+    <style name="Widget.App.Button" parent="Widget.MaterialComponents.Button">
+        <!-- Your custom button attributes -->
+    </style>
+
+    <style name="Widget.App.TextView" parent="Widget.MaterialComponents.TextView">
+        <!-- Your custom TextView attributes -->
+    </style>
+
+    <style name="Widget.App">
+        <!-- Can be an empty base for namespacing, or contain common attributes -->
+    </style>
+
+    <!-- Income (filled blue) -->
+    <style name="Widget.App.Button.Income" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">@color/colorPrimaryBlue</item>
+        <item name="android:textColor">@color/colorOnPrimary</item>
+        <item name="iconTint">@color/colorOnPrimary</item>
+        <item name="cornerRadius">28dp</item>
+        <item name="android:minHeight">56dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:paddingStart">16dp</item>
+        <item name="android:paddingEnd">16dp</item>
+        <item name="iconPadding">8dp</item>
+    </style>
+
+    <!-- Expense (filled red) -->
+    <style name="Widget.App.Button.Expense" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">@color/expenseRed</item>
+        <item name="android:textColor">@color/colorOnPrimary</item>
+        <item name="iconTint">@color/colorOnPrimary</item>
+        <item name="cornerRadius">28dp</item>
+        <item name="android:minHeight">56dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:paddingStart">16dp</item>
+        <item name="android:paddingEnd">16dp</item>
+        <item name="iconPadding">8dp</item>
+    </style>
+
+
+</resources>

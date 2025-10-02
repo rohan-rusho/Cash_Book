@@ -1,0 +1,84 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Cash Book</string>
+
+    <string-array name="currencies_with_prompt">
+        <item>@string/prompt_currency</item>
+        <item>BDT</item>
+        <item>USD</item>
+        <item>INR</item>
+        <item>EUR</item>
+        <item>GBP</item>
+    </string-array>
+
+
+
+    <string name="default_web_client_id">YOUR_WEB_CLIENT_ID.apps.googleusercontent.com</string>
+    <string name="cash_flow">Cash Flow</string>
+    <string name="cash_chart">Cash Chart</string>
+
+    <string name="total_income">Total Income</string>
+    <string name="total_expense">Total Expense</string>
+    <string name="view_chart">View Chart</string>
+    <string name="details">Details</string>
+
+    <string name="profile">Profile</string>
+    <string name="edit">Edit</string>
+    <string name="go">Go</string>
+    <string name="profile_picture">Profile Picture</string>
+    <string name="buying_limit">Buying Limit</string>
+    <string name="buying_limit_label">Buying Limit</string>
+    <string name="limit_pemakaian">Limit Pemakaian</string>
+    <string name="progress">Progress</string>
+
+
+    <string name="add_income">Add Income</string>
+    <string name="add_expense">Add Expense</string>
+
+
+        <string name="check_balance">Check Balance</string>
+        <string name="e_wallet_details">E-Wallet Details</string>
+        <string name="name">Name</string>
+        <string name="price">Price</string>
+
+    <string name="edit_profile">Edit Profile</string>
+    <string name="label_name">Name</string>
+    <string name="label_email">Email</string>
+    <string name="label_password">Password</string>
+    <string name="save">Save</string>
+    <string name="change_password">Change Password</string>
+
+
+    <string name="total_balance">TOTAL BALANCE</string>
+    <string name="total_shopping">Total Shopping</string>
+    <string name="total_topup">Total Top Up</string>
+    <string name="income">Income</string>
+    <string name="expense">Expense</string>
+    <string name="week">WEEK</string>
+    <string name="month">MONTH</string>
+    <string name="day">DAY</string>
+    <string name="recent_transaction">Recent transaction</string>
+    <string name="view_all">view all</string>
+    <string name="content_desc_menu">Menu</string>
+
+    <string name="signup_title">Create an Account</string>
+    <string name="hint_name">Your Name</string>
+    <string name="hint_email">Your Email</string>
+    <string name="hint_password">Your Password</string>
+    <string name="action_signup_now">Sign Up Now</string>
+    <string name="already_have_account">Already have an account? </string>
+    <string name="login">Login</string>
+    <string name="content_desc_back">Back</string>
+
+    <string name="app_name_display">Cash Book</string>
+    <string name="app_subtitle_multiline">We help you to monitor\nyour money on Ecommerce App</string>
+
+    <string name="login_title">Login</string>
+    <string name="action_login_now">Login Now</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="dont_have_account">Don\'t have an account? </string>
+    <string name="sign_up">Sign Up</string>
+
+    <string name="prompt_currency">Select Currency</string>
+    <string name="error_currency_required">Please select a currency</string>
+    <string name="some_library_string" tools:replace="android:text">My App String</string>
+</resources>

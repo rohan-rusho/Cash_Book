@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rootProfileRow"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:background="@drawable/bg_profile_row_ripple"
+    android:paddingStart="8dp"
+    android:paddingEnd="8dp"
+    android:layout_marginBottom="4dp">
+
+    <ImageView
+        android:id="@+id/ivRowIcon"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:src="@drawable/ic_edit_16"
+        app:tint="@color/textSecondary"
+        android:contentDescription="@string/profile"/>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvRowLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Row Title"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            android:textColor="@color/textPrimary"
+            android:includeFontPadding="false"/>
+
+        <TextView
+            android:id="@+id/tvRowSubtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Subtitle"
+            android:textSize="11sp"
+            android:textColor="@color/textSecondary"
+            android:includeFontPadding="false"
+            android:layout_marginTop="2dp"/>
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:src="@drawable/ic_chevron_right_24"
+        android:tint="@color/textSecondary"
+        android:contentDescription="@string/content_desc_menu"/>
+</LinearLayout>

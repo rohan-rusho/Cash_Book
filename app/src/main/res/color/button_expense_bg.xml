@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Disabled -->
+    <item android:state_enabled="false" android:color="#66D84A3A"/>  <!-- 40% alpha of expenseRed -->
+    <!-- Pressed -->
+    <item android:state_pressed="true" android:color="#C63F31"/>     <!-- Darker shade -->
+    <!-- Focused (optional) -->
+    <item android:state_focused="true" android:color="@color/expenseRed"/>
+    <!-- Default -->
+    <item android:color="@color/expenseRed"/>
+</selector>

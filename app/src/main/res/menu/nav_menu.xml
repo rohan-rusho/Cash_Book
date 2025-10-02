@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/group_main" android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_24"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_balance"
+            android:icon="@drawable/ic_wallet_24"
+            android:title="Balance" />
+        <item
+            android:id="@+id/nav_cash_flow"
+            android:icon="@drawable/ic_chart_24"
+            android:title="Cash Flow" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_profile_24"
+            android:title="Profile" />
+    </group>
+
+    <item
+        android:id="@+id/nav_logout"
+        android:title="Logout"
+        android:icon="@drawable/ic_logout_24"
+        android:checkable="false"
+        android:visible="true" />
+</menu>

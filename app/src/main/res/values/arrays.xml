@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="shops_array">
+        <item>Shopee</item>
+        <item>Tokopedia</item>
+        <item>Lazada</item>
+        <item>Amazon</item>
+        <item>eBay</item>
+        <item>AliExpress</item>
+        <item>Flipkart</item>
+        <item>Etsy</item>
+        <item>Walmart</item>
+        <item>BestBuy</item>
+        <item>Rakuten</item>
+        <item>Daraj</item>
+        <item>Shopify</item>
+        <item>Taraj</item>
+        <item>Facebook Marketplace</item>
+    </string-array>
+
+    <string-array name="limit_frequency_array">
+        <item>Daily</item>
+        <item>Weekly</item>
+        <item>Monthly</item>
+        <item>Yearly</item>
+    </string-array>
+</resources>

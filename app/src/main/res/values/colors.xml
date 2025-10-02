@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="primary">#3366cc</color>
+
+    <color name="colorPrimaryBlue">#2F5EAE</color>
+    <color name="colorPrimaryBlueDark">#1F4582</color>
+    <color name="colorOnPrimary">#FFFFFF</color>
+    <color name="screenBackground">#E6E6E6</color>
+    <color name="cardBackground">#FFFFFF</color>
+    <color name="inputStroke">#D4D6DA</color>
+    <color name="textPrimary">#222222</color>
+    <color name="textSecondary">#555555</color>
+    <color name="linkColor">#2F5EAE</color>
+    <color name="rippleLight">#1A2F5EAE</color>
+    <color name="incomeGreen">#2DBB55</color>
+    <color name="expenseRed">#D84A3A</color>
+    <color name="dividerLight">#FFE7E9EC</color>
+    <color name="white_40">#66FFFFFF</color>
+
+    <color name="drawerBlue">#3F68B5</color>
+    <color name="drawerActiveBg">#2E5AA3</color>
+    <color name="drawerPressedBg">#28508F</color>
+    <color name="drawerRippleOverlay">#33FFFFFF</color>
+    <color name="navIconInactive">#FFFFFFFF</color>
+    <color name="navIconActive">#FFFFFFFF</color>
+    <color name="navTextInactive">#FFFFFFFF</color>
+    <color name="navTextActive">#FFFFFFFF</color>
+    <color name="drawerDividerLine">#4D84C9</color>
+
+    <color name="navDrawerBlue">#2F59B2</color>
+    <color name="drawerSubtitle">#B3FFFFFF</color>
+    <color name="drawerDivider">#33FFFFFF</color>
+    <color name="drawerItemText">#E6FFFFFF</color>
+    <color name="drawerItemIcon">#CCFFFFFF</color>
+    <color name="navItemPressedOverlay">#29FFFFFF</color>
+    <color name="navItemSelectedBg">#1AFFFFFF</color>
+    <color name="brandBlue">#ABCDEF</color>
+
+    <color name="my_correct_red">#FF0000</color>
+    <!-- The duplicate 'my_invalid_color' has been removed or you've decided on its purpose -->
+</resources>
