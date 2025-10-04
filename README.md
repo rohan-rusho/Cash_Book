@@ -172,8 +172,8 @@ Distributed under the MIT License. See [LICENSE](LICENSE) for details.
 
 ## Contact
 
-Created by [Your Name](https://github.com/your-username)  
-For questions or support, email [your-email@example.com](mailto:your-email@example.com)
+Created by [Your Name](https://github.com/rohan-rusho)  
+For questions or support, email [your-email@example.com](mailto:rusho.rohan@gmail.com)
 
 ---
 
