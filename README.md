@@ -1,8 +1,5 @@
-# A
-
-![Main Screenshot](SS/1.png)
-
----
+##Cash Book
+#By Rohan Rusho
 
 ## Table of Contents
 
